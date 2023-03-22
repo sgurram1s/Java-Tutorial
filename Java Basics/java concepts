@@ -1,0 +1,84 @@
+What is Java?
+    Java is a popular programming language, created in 1995.
+    It is owned by Oracle, and more than 3 billion devices run Java.
+    It is used for:
+        Mobile applications (specially Android apps)
+        Desktop applications
+        Web applications
+        Web servers and application servers
+        Games
+        Database connection
+        And much, much more!
+
+
+Why Use Java?
+    Java works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc.)
+    It is easy to learn and simple to use
+    It is open-source and free
+    It is secure, fast and powerful
+    It has a huge community support (tens of millions of developers)
+    Java is an object oriented language which gives a clear structure to programs and allows code to be reused, lowering development costs
+    As Java is close to C++ and C#, it makes it easy for programmers to switch to Java or vice versa.
+
+
+The extension for java file is .java
+In java the file name must be same as class name.
+And the java is a case sensitive.
+
+
+Printing Output:
+    The syntax for printing output is
+        System.out.print();
+    and we can also use println() for printing the output and then going to next line.
+    for example,
+        System.out.println("Hello World!");
+        System.out.println(50000);
+        System.out.println(3 + 3);
+
+Comments in Java:
+    for single line commenting we use ( // ).
+    for example,
+        //This is a single line comment in java
+    for multiline commenting we use ( /* ) at the beginning and ( */ ) at the end.
+    for example,
+        /* this is for
+           multi line commenting in java */.
+
+
+Variables in Java:
+    The syntax for declaring the variables are:
+        type variable_name;
+        type variable_name = value;
+        type variable_name_1, variable_name_2, ....;    // for declaring multiple variables.
+    for example,
+        int myNum = 15;
+        String name = "John";
+        float myFloatNum = 5.99f;
+        char myLetter = 'D';
+        boolean myBool = true;
+    Rules for naming variables are:
+        Name can have letters, digits, underscores and also dollar sign($).
+        name can begin with a letter, underscore or dollar($) sign.
+        Name should start with lowercase and should not have white spaces.
+        Can't use java keywords.
+        Names are case sensitive.
+    for example,
+        myvar, myVar, _myVar, $Var etc.
+
+
+Data Types in Java:
+    There are two data types in java:
+        Primitive Data Type
+            A primitive data type specifies the size and type of variable values, and it has no additional methods.
+            There are eight primitive data types in Java:
+                Data Type       Size        Description
+                byte            1 byte      Stores from -128 to 127
+                short           2 bytes     Stores from -32768 to 32767
+                int             4 bytes     Stores whole numbers from -2,147,483,648 to 2,147,483,647
+                long            8 bytes     Stores whole numbers from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+                float           4 bytes     Stores decimal value upto 6 to 7 decimal digits
+                double          8 bytes     Stores decimal value upto 15 decimal digits.
+                boolean         1 bit       Stores true or false
+                char            2 bytes     Stores single character/letter/ASCII values
+
+        Non-Primitive Data Type
