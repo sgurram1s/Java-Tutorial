@@ -148,7 +148,99 @@ Operators in Java:
                         System.out.print(y);    //Output: 4
         Assignment operators:
             Assignment operators are used to assign values to variables.
+            For assigning we use equal(=).
+            for example,
+                int x = 5;
+                System.out.print(x);
+            We can also use arithmetic operations along with the assignment operator.
+            for example,
+                int x = 5;
+                x += 3;     // Similar to x = x + 3;
+                System.out.print(x);    //Output: 8
 
-        Comparison operators
+                int x = 5;
+                x *= 3;     // Similar to x = x * 3;
+                System.out.print(x);    //Output: 15
+
+        Comparison operators:
+            Comparison operators are used to compare two values or variables.
+            It is used in decisions.
+            It returns the boolean output( true or false).
+            Few comparisons operators are
+                Equal to                      ==
+                Not equal to                  !=
+                Greater than                  >
+                Greater than or equal to      >=
+                Less than                     <
+                Less than or equal to         <=
+
         Logical operators
-        Bitwise operators
+            Logical operators are used to determine the logic between variables or values
+            They are:
+                Logical and     &&      Returns true if both statements are true
+                Logical or      ||      Returns true if one of those statements is true
+                Logical not     !       Reverse the result, returns false if the result is true
+
+        Bitwise operators:
+
+
+Strings in Java:
+    It is a collection of characters placed in between double quotes(").
+    for example,
+        String name = "krishna";
+        System.out.print(name);     //output: krishna
+    There are many methods in strings.
+        length():
+            For finding length of string we use .length() method.
+            for example,
+                String txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+                System.out.println(txt.length());       //Output: 26
+        toUpperCase():
+            For changing string to upper case.
+            for example,
+                String txt = "krishna";
+                System.out.print(txt.toUpperCase());        //Output: KRISHNA
+        toLowerCase():
+            For changing the complete string to lower case.
+            for example,
+                String txt = "ENTIRE STRING IS LOWER CASE"
+                System.out.print(txt.toLowerCase());        //Output: entire string is lower case
+        indexOf():
+            This method returns the first occurrence of a specified text in a string.
+            for example,
+                String txt = "Please locate where 'locate' occurs!";
+                System.out.println(txt.indexOf("locate"));      // Outputs 7
+        concat():
+            This method is used for combine or adding two strings.
+            for example,
+                String first = "first name";
+                String last = "last name";
+                System.out.print(first.concat(last));       //Output: first namelast name
+            we can also do as,
+                System.out.print(first+" "+last);       //output: first name last name
+
+    There are few special characters in strings.
+        For the special characters we use backslash(\).
+        Single quote(\'):
+            if we won't use backslash it will treat ' as character.
+            for example,
+                String txt = "It\'s alright.";
+                System.out.println(txt);        //output: It's alright.
+        Double quotes(\"):
+            if we won't use backslash it won't give a expected result.
+            for example,
+                String txt = "We are the so-called \"Vikings\" from the north.";
+                System.out.println(txt);        //output: We are the so-called "Vikings" from the north.
+            in the above example if we won't keep backslash it will through an error.
+        For printing a backslash in a paragraph we need do insert(\) infront of a backslash.
+        for example,
+            String txt = "The character \\ is called backslash.";
+            System.out.println(txt);    //Output: The character \ is called backslash.
+        There are few other:
+            \n      for new line
+            \t      for tab space
+            \b      for backspace
+            \r      for carriage return
+            \f      for form feed           // for more detail please refer "https://www.w3schools.com/java/java_strings_specchars.asp"
+
+
