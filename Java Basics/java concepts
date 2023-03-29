@@ -82,3 +82,73 @@ Data Types in Java:
                 char            2 bytes     Stores single character/letter/ASCII values
 
         Non-Primitive Data Type
+            Non-primitive data types are called reference types because they refer to objects.
+            Examples of non-primitive types are Strings, Arrays, Classes, Interface, etc.
+
+
+Type Casting in Java:
+    Type casting is when you assign a value of one primitive data type to another type.
+    In Java, there are two types of casting:
+        Widening Casting:
+            Widening casting is done automatically when passing a smaller size type to a larger size type
+            byte -> short -> char -> int -> long -> float -> double
+            for example,
+                int myInt = 9;
+                double myDouble = myInt; // Automatic casting: int to double
+        Narrowing Casting:
+            Narrowing casting must be done manually by placing the type in parentheses in front of the value.
+            double -> float -> long -> int -> char -> short -> byte
+            for example,
+                double myDouble = 9.78d;
+                int myInt = (int) myDouble;
+
+
+Operators in Java:
+    Operators are used to perform operations on variables and values.
+    Java divides the operators into the following groups:
+        Arithmetic operators:
+            Arithmetic operators are used to perform common mathematical operations.
+            Few Operators are:
+                Addition(+):
+                    Adds together two values(x+y)
+                    for example,
+                        int x = 5;
+                        int y = 3;
+                        System.out.println(x + y);  //Output: 8
+                Subtraction(-):
+                    Subtracts one value from another(x-y)
+                    for example,
+                        int x = 5;
+                        int y = 3;
+                        System.out.println(x - y);  //Output: 2
+                Multiplication(*):
+                    for example,
+                        int x = 5;
+                        int y = 3;
+                        System.out.println(x * y);
+                Division(/):
+                    for example,
+                        int x = 5;
+                        int y = 3;
+                        System.out.println(x / y);
+                Modulus(%):
+                    for example,
+                        int x = 5;
+                        int y = 3;
+                        System.out.println(x % y);
+                Increment(++):
+                    for example,
+                        int x = 5;
+                        int y = ++x;
+                        System.out.print(y);    //Output: 6
+                Decrement(--):
+                    for example,
+                        int x = 5;
+                        int y = --x;
+                        System.out.print(y);    //Output: 4
+        Assignment operators:
+            Assignment operators are used to assign values to variables.
+
+        Comparison operators
+        Logical operators
+        Bitwise operators
