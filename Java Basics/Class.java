@@ -5,6 +5,6 @@ public class Class{
         System.out.print("Enter the no of lines: ");
         int value = input.nextInt();
         Patterns type = new Patterns();
-        System.out.print(type(left_triangle()));
+        System.out.print(type);
     }
 }
